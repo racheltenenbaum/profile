@@ -1,0 +1,127 @@
+body {
+  color: #2A3439;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  font-size: 15px;
+  background-color: #FEFEFA;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+  color: #2F4F4F;
+  font-family: 'Prompt', sans-serif;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+h2 {
+  color: #4D5D53;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+h3 {
+  color: #97A89B;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 10px;
+}
+
+h4 {
+  color: #97A89B;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+.red_link {
+  padding: 10px;
+}
+
+.red_link a{
+  text-decoration: none;
+  color: #dbaeb0;
+  background-color: #65000B;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 0 0;
+  border: #65000B;
+  border-radius: 5px;
+}
+
+.red_link:hover {
+  color: #B22222;
+  font-weight: bolder;
+}
+
+.socials {
+  padding: 0px;
+}
+
+.socials li {
+  /* color: #97A89B; */
+  font-size: 30px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.socials li a {
+  color: #97A89B;
+}
+
+.socials li a:hover {
+  color: #7A8D7E;
+  font-weight: bolder;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border: #DBD7D2;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 20px 0px 0px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.profile-pic {
+  margin: 0 auto;
+  margin-left: -33%;
+  height: 100%;
+  width: auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
