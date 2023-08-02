@@ -1,9 +1,9 @@
 body {
-  color: #2A3439;
-  font-family: 'Schibsted Grotesk', sans-serif;
+  color: #455258;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   background-color: #FEFEFA;
-  line-height: normal;
+  line-height: 25px;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ h2 {
   color: #4D5D53;
   font-family: 'Fjalla One', sans-serif;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 40px;
 }
 
 h3 {
@@ -46,13 +46,13 @@ h4 {
   background-color: #65000B;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 0 0;
-  border: #65000B;
   border-radius: 5px;
 }
 
-.red_link:hover {
-  color: #B22222;
+.red_link a:hover {
+  color: #65000B;
   font-weight: bolder;
+  background-color: white;
 }
 
 .socials {
@@ -84,7 +84,7 @@ h4 {
   background: white;
   border: #DBD7D2;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 70px;
   margin: 20px 20px 0px 0px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
